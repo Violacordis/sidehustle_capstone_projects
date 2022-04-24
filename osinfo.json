@@ -1,0 +1,11 @@
+{
+  "hostname": "DESKTOP-85EPS4R",
+  "platform": "win32",
+  "architecture": "x64",
+  "numberOfCPUS": 4,
+  "networkInterfaces": {
+    "Wi-Fi": [ ["Object"], ["Object"] ],       
+    "Loopback Pseudo-Interface 1": [ ["Object"], [Object] ]
+  },
+  "uptime": 7556
+}
