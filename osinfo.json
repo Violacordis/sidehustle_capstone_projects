@@ -1,11 +1,1 @@
-{
-  "hostname": "DESKTOP-85EPS4R",
-  "platform": "win32",
-  "architecture": "x64",
-  "numberOfCPUS": 4,
-  "networkInterfaces": {
-    "Wi-Fi": [ ["Object"], ["Object"] ],       
-    "Loopback Pseudo-Interface 1": [ ["Object"], [Object] ]
-  },
-  "uptime": 7556
-}
+{"hostname":"DESKTOP-85EPS4R","platform":"win32","architecture":"x64","numberOfCPUS":4,"networkInterfaces":{"Wi-Fi":[{"address":"fe80::c133:3e25:9cab:b584","netmask":"ffff:ffff:ffff:ffff::","family":"IPv6","mac":"00:e9:3a:dc:12:4d","internal":false,"cidr":"fe80::c133:3e25:9cab:b584/64","scopeid":11},{"address":"192.168.43.94","netmask":"255.255.255.0","family":"IPv4","mac":"00:e9:3a:dc:12:4d","internal":false,"cidr":"192.168.43.94/24"}],"Loopback Pseudo-Interface 1":[{"address":"::1","netmask":"ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff","family":"IPv6","mac":"00:00:00:00:00:00","internal":true,"cidr":"::1/128","scopeid":0},{"address":"127.0.0.1","netmask":"255.0.0.0","family":"IPv4","mac":"00:00:00:00:00:00","internal":true,"cidr":"127.0.0.1/8"}]},"uptime":31814}

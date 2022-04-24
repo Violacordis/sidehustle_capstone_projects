@@ -48,6 +48,11 @@ const server = http.createServer((req,res) => {
 });
 
 
+// Starting server
+server.listen(port, () => {
+    console.log(`Server running at http://localhost:${port}`);
+});
+
 let osinfo = {
     hostname: os.hostname(),
     platform: os.platform(),
@@ -58,7 +63,13 @@ let osinfo = {
 };
 // console.log(osinfo);
 
-// Starting server
-server.listen(port, () => {
-    console.log(`Server running at http://localhost:${port}`);
+const osinfoData = JSON.stringify(osinfo);
+console.log(osinfoData);
+
+fs.writeFile('osinfo.json', osinfoData, 'utf8', (err) => {
+    if (err) {
+        console.log(err);
+    } else {
+        console.log('osinjo.json is saved successfully');
+    }
 });
